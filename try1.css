@@ -3,23 +3,24 @@
 * {
 	margin: 0; 
 	padding: 0;
+
 }
 
 /* header */
 #header {
 	z-index: 1;
-	position: relative;
+	position: fixed;
 	width: 100%;
-	margin-top: -20px;
-	height: 60px;
+	margin-top: 0px;
+	height: 40px;
 	background: #668284;
-	margin-bottom: 10px;
+	margin-bottom:0px;
 }
 
 #name {
 	float:left;
 	margin-left: 15px;
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 1em;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
@@ -28,7 +29,7 @@
 #number {
 	float:left;
 	margin-left: 30%;
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 1em;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
@@ -37,10 +38,88 @@
 #email {
 	float:right;
 	margin-right: 15px;
+	padding-top: 10px;
 	font-size: 1em;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
 	text-decoration: underline;
 }
 
+/* left */
+#left {
+	position:absolute;
+	left: 10%;
+	top: 25%;
+	display: block;
+	background: pink;
+	width: 20%;
+	color: blue;
+	text-align: center;
+	
+}
 
+p.leftmenu {
+	border-radius:100%;
+    border: 2px solid yellow;
+	margin-top: 10px;
+	margin-bottom:10px;
+	background: black;
+	color: white;
+	text-align:center;
+}
+
+/* centre image */
+img {
+	position:fixed;
+	left: 40%;
+	top: 40%;
+	width: 10%;
+	height: 25%;
+}
+
+/* right */
+#right {
+	position:absolute;
+	left: 65%;
+	top: 25%;
+	display: block;
+	background: pink;
+	width: 20%;
+	color: blue;
+	text-align: center;
+}
+
+
+p.rightmenu  {
+	border-radius:100%;
+    border: 2px solid yellow;
+	margin-top: 10px;
+	margin-bottom:10px;
+	background: black;
+	color: white;
+	text-align:center;
+
+}
+
+/* footer */
+#footer {
+	z-index: 1;
+	position: fixed;
+	height: 40px;
+	background: #668284;
+	bottom:0%;
+	display:block;
+	width:100%;
+	text-align: center;
+	
+
+}
+#footer p {
+	position: relative;
+	margin-top:5px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-family: Verdana, calibri, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+}
